@@ -1,0 +1,39 @@
+.dva {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+}
+.dv1 {
+    background-color:lightblue;
+    height: 200px;
+}
+.dv2 {
+    background-color:lightpink;
+    height: 400px;
+    width: 200px;
+}
+.dv3 {
+    background-color:rgb(255, 0, 38);
+    height: 200px;
+}
+.dv4 {
+    background-color:rgb(34, 23, 151);
+    height: 200px;
+    display: inline-block;
+}
+.tr {
+    background-color: var(--search-box-bg, white);
+    border: none;
+    border-radius: var(--ntp-realbox-border-radius);
+    color: var(--search-box-text);
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%;
+}
+
+
